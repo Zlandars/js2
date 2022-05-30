@@ -1,0 +1,23 @@
+{
+  "name": "project_express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "start": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "nodemonConfig": {
+    "ignore": [
+      "*.json"
+    ]
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "vue-router": "^3.5.3"
+  }
+}
